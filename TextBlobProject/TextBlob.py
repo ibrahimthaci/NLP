@@ -1,3 +1,12 @@
+# I tried this code 16/01/2022 it didnt work
+# Becasue textblob use google translate, and google changed API
+
+#Use Googletrans to translate the text
+#import googletrans from googletrans import Translator
+#translater = Translator() value = translater.translate(value) print(value.src)
+#To detect the language we can use this...
+
+
 from textblob import TextBlob
 import nltk
 
